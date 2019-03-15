@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Epic Email</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="main">
+            <center><img src="../image/logoimg.png" width="150" width="150"></center>
+            <center>
+                <h1>WELCOME TO EPIC MAIL</h1>
+                <h2>What Do You Want To Do?</h2>
+            </center>
+            <button type="submit" id="btn2" onclick="signUp()">SignUp</button>
+            <div id="signup-form">
+                <p id="errormessage"></p>
+                <p id="errormessage2"></p>
+                <form action="">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="password" id="userpass" name="password" placeholder="Password">
+                    <input type="password" id="confirm" name="confirmpassword" placeholder="Confirm Password">
+                    <center><input type="button" type="submit" id="btn2" value="SIGN UP" onclick="checkPass();">
+                    </center><br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
